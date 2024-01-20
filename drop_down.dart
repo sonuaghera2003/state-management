@@ -13,7 +13,7 @@ class _DropDownDemoState extends State<DropDownDemo> {
     "India",
     "USA",
   ];
-  
+
   List countryList1 = [
     // "gujrat ",
     "USA",
@@ -59,6 +59,7 @@ class _DropDownDemoState extends State<DropDownDemo> {
   dynamic selectCountry;
 
   List stateList = [];
+  
   dynamic selectState;
 
   List cityList = [];
