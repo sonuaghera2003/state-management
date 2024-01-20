@@ -59,7 +59,7 @@ class _DropDownDemoState extends State<DropDownDemo> {
   dynamic selectCountry;
 
   List stateList = [];
-  
+
   dynamic selectState;
 
   List cityList = [];
@@ -87,6 +87,7 @@ class _DropDownDemoState extends State<DropDownDemo> {
               setState(() {});
             },
           ),
+          DropDownDemo(),
           DropdownButton(
             value: selectState,
             items: stateList
